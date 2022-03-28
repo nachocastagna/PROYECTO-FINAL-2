@@ -26,7 +26,7 @@ body {
 .container__parrafo {
   height: 8rem;
   padding: 15px;
-  width: 55%; }
+  width: 100%; }
   .container__parrafo .__parrafo {
     padding: 15px;
     color: #fff;
@@ -34,6 +34,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-style: oblique; }
+
+@media only screen and (max-width: 560px) {
+  .container__quienesomos {
+    height: auto; }
+  .container__quienesomos h1 {
+    font-size: large;
+    margin: 5px;
+    padding: 5px; }
+  .container__parrafo {
+    height: auto;
+    width: 100%; }
+    .container__parrafo .__parrafo {
+      color: #fff;
+      font-size: 1rem;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      font-style: oblique; } }
 
 .container__quehacemos {
   padding-top: 1rem;
@@ -65,6 +82,14 @@ body {
     .container__quehacemos .card .card img {
       width: 100%; }
 
+@media only screen and (max-width: 560px) {
+  .container__quehacemos {
+    height: auto; }
+  .container__quehacemos h1 {
+    font-size: large;
+    margin: 5px;
+    padding: 5px; } }
+
 .contenedor__adondeapuntamos {
   padding-top: 1rem;
   margin: 5px;
@@ -87,6 +112,14 @@ body {
 
 .carrusel {
   text-align: center; }
+
+@media only screen and (max-width: 560px) {
+  .contenedor__adondeapuntamos {
+    height: auto; }
+  .contenedor__adondeapuntamos h1 {
+    font-size: large;
+    margin: 5px;
+    padding: 5px; } }
 
 .container__contacto {
   padding-top: 1rem;
@@ -124,6 +157,16 @@ body {
 
 .container__form .boton {
   width: 60px; }
+
+@media only screen and (max-width: 560px) {
+  .container__contacto {
+    height: auto; }
+  .container__contacto h1 {
+    font-size: large;
+    margin: 5px;
+    padding: 5px; }
+  .container__form {
+    display: none; } }
 
 .footer {
   display: flex;
