@@ -1,0 +1,11 @@
+$margin:5px;
+$padding-top:1rem;
+$widht:100%;
+$height:auto;
+
+@mixin container ($margin,$padding-top,$widht,$height) {
+    margin: $margin;
+    padding-top: $padding-top ;
+    width: $widht;    
+    height: $height;
+}

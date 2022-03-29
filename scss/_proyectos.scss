@@ -1,0 +1,18 @@
+.container__proyectos{
+    @mixin container ($margin,$padding-top,$widht,$height) {
+        margin: $margin;
+        padding-top: $padding-top ;
+        width: $widht;    
+        height: $height;
+    }
+}
+.container__connosotros{
+    @mixin container ($margin,$padding-top,$widht,$height) {
+        margin: $margin;
+        padding-top: $padding-top ;
+        width: $widht;    
+        height: $height;
+        background-color: #fff;
+    }
+    
+}

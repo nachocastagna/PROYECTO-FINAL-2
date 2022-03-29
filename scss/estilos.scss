@@ -1,18 +1,7 @@
 // VARIABLES
 $titulos:#d17070;
 $size-titulos: 3rem;
-$margin:5px;
-$padding-top:1rem;
-$widht:100%;
-$height:auto;
 
-
-@mixin container ($margin,$padding-top,$widht,$height) {
-    margin: $margin;
-    padding-top: $padding-top ;
-    width: $widht;    
-    height: $height;
-}
 
 *{
     margin: 0;  
