@@ -1,5 +1,5 @@
 // VARIABLES
-$titulos: blue;
+$titulos:#d17070;
 $size-titulos: 3rem;
 
 *{
@@ -21,17 +21,16 @@ body{
     height: 25rem;
     background-color: #fcc987fd;
     
-    h1{
-        margin: 35px;
-        padding: 15px;
-        color: #d17070;
-        font-size: $size-titulos;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left; 
-    }
-    
-}
 
+}
+.__titulos{
+    margin: 35px;
+    padding: 15px;
+    color:$titulos;
+    font-size: $size-titulos;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left; 
+}
 .container__parrafo{
     
     height: 8rem;
@@ -82,12 +81,7 @@ body{
     background-color: #ffffff;
 
     h1{
-        margin: 35px;
-        padding: 15px;
-        color:#d17070;
-        font-size: $size-titulos;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
+     @extend .__titulos
     }
     
     .contenedor__card{
@@ -136,12 +130,7 @@ body{
     background-color: #fcc987fd;
 
     h1{
-        margin: 35px;
-        padding: 15px;
-        color:#d17070;
-        font-size: $size-titulos;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
+        @extend .__titulos
     } 
     .contenedor__accordion{
         margin-top: 3rem;
@@ -228,12 +217,7 @@ body{
     background-color: #fff;
 
     h1{
-        margin: 35px;
-        
-        color:#d17070;
-        font-size: $size-titulos;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        text-align: left;
+        @extend .__titulos
     } 
 }
 .container__form{
@@ -287,6 +271,7 @@ body{
         text-align: center;
         padding: 10px;
         background-color: #C98022;
+        background-color: #A88455;
 
         .iconos{
             display: inline;

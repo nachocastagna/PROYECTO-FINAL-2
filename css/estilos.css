@@ -15,13 +15,14 @@ body {
   width: 100%;
   height: 25rem;
   background-color: #fcc987fd; }
-  .container__quienesomos h1 {
-    margin: 35px;
-    padding: 15px;
-    color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left; }
+
+.__titulos, .container__quehacemos h1, .contenedor__adondeapuntamos h1, .container__contacto h1 {
+  margin: 35px;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left; }
 
 .container__parrafo {
   height: 8rem;
@@ -58,13 +59,6 @@ body {
   width: 100%;
   height: auto;
   background-color: #ffffff; }
-  .container__quehacemos h1 {
-    margin: 35px;
-    padding: 15px;
-    color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left; }
   .container__quehacemos .contenedor__card {
     justify-content: center;
     display: flex;
@@ -96,13 +90,6 @@ body {
   width: 100%;
   height: auto;
   background-color: #fcc987fd; }
-  .contenedor__adondeapuntamos h1 {
-    margin: 35px;
-    padding: 15px;
-    color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left; }
   .contenedor__adondeapuntamos .contenedor__accordion {
     margin-top: 3rem; }
   .contenedor__adondeapuntamos .conteiner {
@@ -127,12 +114,6 @@ body {
   width: 100%;
   height: auto;
   background-color: #fff; }
-  .container__contacto h1 {
-    margin: 35px;
-    color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left; }
 
 .container__form {
   padding: 30px;
@@ -173,7 +154,8 @@ body {
   justify-content: space-around;
   text-align: center;
   padding: 10px;
-  background-color: #C98022; }
+  background-color: #C98022;
+  background-color: #A88455; }
   .footer .iconos {
     display: inline; }
   .footer .descripcion-logo h3 {
