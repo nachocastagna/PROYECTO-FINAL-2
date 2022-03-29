@@ -17,7 +17,7 @@ body {
   margin: 5px;
   padding-top: 1rem;
   width: 100%;
-  height: 25rem;
+  height: auto;
   background-color: #fcc987fd;
 }
 
@@ -31,8 +31,8 @@ body {
 }
 
 .container__parrafo {
-  height: 8rem;
-  padding: 15px;
+  height: auto;
+  padding-bottom: 15px;
   width: 100%;
 }
 
@@ -68,8 +68,8 @@ body {
 }
 
 .container__quehacemos {
-  padding-top: 1rem;
   margin: 5px;
+  padding-top: 1rem;
   width: 100%;
   height: auto;
   background-color: #ffffff;
@@ -168,8 +168,10 @@ body {
   padding: 30px;
   margin: auto;
   width: 400px;
-  background-color: #C69E6A;
+  background-color: #fcc987fd;
   border-radius: 5px;
+  border-style: solid;
+  border-color: #C98022;
   color: white;
 }
 
