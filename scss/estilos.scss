@@ -1,7 +1,7 @@
 // VARIABLES
 $titulos:#d17070;
 $size-titulos: 3rem;
-
+@import "mixin";
 
 *{
     margin: 0;  
@@ -16,10 +16,8 @@ body{
     background-color:#A88455;
 }
 .container__quienesomos{
-    @include container ($margin,$padding-top,$widht,$height);
+    @include container($margin,$padding-top,$widht,$height);
     background-color: #fcc987fd;
-    
-
 }
 .__titulos{
     margin: 35px;
@@ -118,10 +116,7 @@ body{
 
 
 .contenedor__adondeapuntamos{
-    padding-top: 1rem ;
-    margin: 5px;
-    width: 100%;
-    height: auto;
+    @include container($margin,$padding-top,$widht,$height);
     background-color: #fcc987fd;
 
     h1{
@@ -205,10 +200,7 @@ body{
 // }
 
 .container__contacto{
-    padding-top: 1rem ;
-    margin: 5px;
-    width: 100%;
-    height: auto;
+    @include container($margin,$padding-top,$widht,$height);
     background-color: #fff;
 
     h1{
