@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__staff{
+    padding: 10px;
+    background-color: #00000086;
+    text-align: center;
+}
+.texto__staff{
+    padding: 10px;
+}
+.card{
+    opacity: 0.8;
+    background-color: #db973da6;
+    
+
+    &:hover{
+        opacity: 1;
+   
+    }
+}
+
+.card-body{
+    text-align: center;
+    color: black;
+}
+.btn{
+    border: 1px solid black;
+    color: black;
+}

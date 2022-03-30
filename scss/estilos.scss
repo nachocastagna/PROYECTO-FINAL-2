@@ -2,6 +2,8 @@
 $titulos:#d17070;
 $size-titulos: 3rem;
 @import "mixin";
+@import "proyectos";
+@import "staff";
 
 *{
     margin: 0;  
@@ -12,9 +14,9 @@ $size-titulos: 3rem;
 body{
     background-color: #db973da6;
 }
-.navbar{
-    background-color:#A88455;
-}
+// .navbar{
+//     background-color:#A88455;
+// }
 .container__quienesomos{
     @include container($margin,$padding-top,$widht,$height);
     background-color: #fcc987fd;
@@ -212,6 +214,7 @@ body{
     margin: auto;
     width: 400px;
     background-color: #fcc987fd;
+    border: 1px;
     border-radius: 5px;
     border-style: solid;
     border-color: #C98022;

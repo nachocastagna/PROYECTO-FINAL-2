@@ -1,3 +1,74 @@
+.container__proyectos {
+  margin: 0;
+  padding-top: 1rem;
+  width: 100%;
+  height: auto;
+  background-color: #fff; }
+
+.proyectos__titulos {
+  margin: 35px;
+  padding: 15px;
+  font-size: 2rem;
+  color: #d17070;
+  text-align: center; }
+
+@media only screen and (max-width: 560px) {
+  .container__proyectos {
+    height: auto; }
+  .container__proyectos h1 {
+    font-size: large;
+    margin: 5px;
+    padding: 5px; } }
+
+.container__card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .container__card .card {
+    background-color: #A88455;
+    font-size: x-large;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif; }
+
+.container__connosotros {
+  margin: 0;
+  padding-top: 1rem;
+  width: 100%;
+  height: auto;
+  background-color: #db973da6;
+  align-items: center; }
+
+.carousel-inner {
+  width: 80%;
+  padding-left: 15%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.container__staff {
+  padding: 10px;
+  background-color: #00000086;
+  text-align: center; }
+
+.texto__staff {
+  padding: 10px; }
+
+.card {
+  opacity: 0.8;
+  background-color: #db973da6; }
+  .card:hover {
+    opacity: 1; }
+
+.card-body {
+  text-align: center;
+  color: black; }
+
+.btn {
+  border: 1px solid black;
+  color: black; }
+
 * {
   margin: 0;
   padding: 0;
@@ -6,11 +77,8 @@
 body {
   background-color: #db973da6; }
 
-.navbar {
-  background-color: #A88455; }
-
 .container__quienesomos {
-  margin: 5px;
+  margin: 0;
   padding-top: 1rem;
   width: 100%;
   height: auto;
@@ -54,7 +122,7 @@ body {
       font-style: oblique; } }
 
 .container__quehacemos {
-  margin: 5px;
+  margin: 0;
   padding-top: 1rem;
   width: 100%;
   height: auto;
@@ -85,7 +153,7 @@ body {
     padding: 5px; } }
 
 .contenedor__adondeapuntamos {
-  margin: 5px;
+  margin: 0;
   padding-top: 1rem;
   width: 100%;
   height: auto;
@@ -109,7 +177,7 @@ body {
     padding: 5px; } }
 
 .container__contacto {
-  margin: 5px;
+  margin: 0;
   padding-top: 1rem;
   width: 100%;
   height: auto;
@@ -120,6 +188,7 @@ body {
   margin: auto;
   width: 400px;
   background-color: #fcc987fd;
+  border: 1px;
   border-radius: 5px;
   border-style: solid;
   border-color: #C98022;
