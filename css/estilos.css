@@ -68,6 +68,70 @@
   border: 1px solid black;
   color: black; }
 
+.container__contacto__pg {
+  padding: 10px;
+  background-color: #00000086;
+  text-align: center; }
+  .container__contacto__pg .contacto__titulos {
+    padding: 10px; }
+
+.margin__container {
+  margin: 10rem; }
+
+.container__form__pg {
+  padding: 30px;
+  margin: auto;
+  width: 400px;
+  background-color: #fcc987fd;
+  border: 1px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #C98022;
+  color: white; }
+  .container__form__pg h1 {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem; }
+
+.datos-form {
+  background: #fdfbfb;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: solid 1px black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.container__form .boton {
+  width: 60px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.equipos__seccion {
+  background-color: #00000086;
+  text-align: center; }
+  .equipos__seccion .__titulo__seccion {
+    padding: 10px; }
+
+.container-fluid {
+  margin: 5px; }
+
+img {
+  width: 100%; }
+
+.container__nosespecializamos {
+  padding: 10px;
+  background-color: #00000086; }
+  .container__nosespecializamos h2 {
+    text-align: center;
+    color: white; }
+
+.contenedor__accordion {
+  padding: 30px; }
+
 * {
   margin: 0;
   padding: 0;
