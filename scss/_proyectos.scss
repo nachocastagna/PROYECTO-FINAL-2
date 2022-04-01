@@ -7,7 +7,7 @@
 
 .container__proyectos{
     padding: 10px;
-    background-color: #fff;
+    background-color: #fcc987fd ;
     
     h1{
         margin: 35px;
@@ -25,21 +25,28 @@
         height: auto;
     }
     .container__proyectos h1{
-        font-size: large;
+        font-size:xx-large;
         margin: 5px;
-        padding: 5px;
+        padding: 15px;
     }
+    .container__card p{
+        font-size: 15px;
+    }
+    .container__card .card{
+    margin: 5px;
+    }
+    
 }
 
 .container__card{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 25rem;
+
     
     .card{
         margin: 30px;
-        font-size: x-large;
+        font-size: 15px;
         text-align: center;
         border-radius: none;
         background-color: #e1fff5;
@@ -50,7 +57,7 @@
 }
 .container__connosotros{
     padding: 10px;
-    background-color: #fcc987fd;
+    background-color: #fff;
     text-align: center;
     align-items: center;
 
@@ -66,7 +73,21 @@
 }
 
 .carousel-inner{
-    margin: 30px;
+
     width: 80%;
     padding-left: 15%;
+}
+
+@media only screen and (max-width: 560px){
+    .container__connosotros{
+        h1{
+            font-size:xx-large;
+            margin: 5px;
+            padding: 15px;
+
+        }
+        .carousel-item img{
+            width: 250px;
+        }
+    }
 }
