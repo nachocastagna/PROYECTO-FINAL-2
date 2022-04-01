@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.equipos__seccion{
+    
+    text-align: center;
+
+    .__titulo__seccion{
+        margin: 35px;
+        padding: 15px;
+        color:$titulos;
+        font-size: $size-titulos;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: left; 
+    }
+}
+
+.container-fluid{
+    margin: 5px;
+}   
+    img{
+    width: 100%;
+}
+@media only screen and (max-width: 560px) {
+    .equipos__seccion .__titulo__seccion{
+        font-size:xx-large;
+        margin: 5px;
+        padding: 15px;
+    }
+}
+
+.container__nosespecializamos{
+    background-color: #fff;
+    padding-bottom: 2rem;
+    h2{
+    margin: 35px;
+    padding: 15px;
+    color:$titulos;
+    font-size: $size-titulos;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left; 
+    
+    }
+}
+
+.contenedor__accordion{
+    background-color: rgba(0, 0, 0, 0.445) ;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 560px){
+    .container__nosespecializamos .__titulo__seccion{
+        font-size: x-large;
+        margin: 5px;
+        padding: 15px;
+    }
+}
