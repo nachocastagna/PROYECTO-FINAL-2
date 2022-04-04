@@ -1,20 +1,23 @@
 
 
 .container__contacto__pg{
-
-        padding: 10px;
-        background-color: #00000086;
-        text-align: center;
+    background-image: url(../imagenes/fondo-contaacto.jpg);
+    background-size: 100%;
     
-        .contacto__titulos{
-        padding: 10px;
-    
-        }
+    h1{
+   
+        padding: 15px;
+        color:$titulos;
+        font-size: $size-titulos;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: left; 
     }
+}
 
-    .margin__container{
-        margin: 10rem;
-    }
+.margin__container{
+    margin: 3rem;
+}
+
 
 .container__form__pg{
     

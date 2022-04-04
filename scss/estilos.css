@@ -7,12 +7,16 @@
 
 .container__proyectos {
   padding: 10px;
-  background-color: #00000086;
-  text-align: center;
+  background-color: #fcc987fd;
 }
 
-.container__proyectos .proyectos__titulos {
-  padding: 10px;
+.container__proyectos h1 {
+  margin: 35px;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 
 @media only screen and (max-width: 560px) {
@@ -20,9 +24,15 @@
     height: auto;
   }
   .container__proyectos h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
+  }
+  .container__card p {
+    font-size: 15px;
+  }
+  .container__card .card {
+    margin: 5px;
   }
 }
 
@@ -34,30 +44,50 @@
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 25rem;
 }
 
 .container__card .card {
   margin: 30px;
-  background-color: #A88455;
-  font-size: x-large;
+  font-size: 15px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  border-radius: none;
+  background-color: #e1fff5;
+  opacity: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .container__connosotros {
   padding: 10px;
-  background-color: #00000086;
+  background-color: #fff;
   text-align: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
+.container__connosotros h1 {
+  margin: 35px;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+
 .carousel-inner {
-  margin: 30px;
   width: 80%;
   padding-left: 15%;
+}
+
+@media only screen and (max-width: 560px) {
+  .container__connosotros h1 {
+    font-size: xx-large;
+    margin: 5px;
+    padding: 15px;
+  }
+  .container__connosotros .carousel-item img {
+    width: 250px;
+  }
 }
 
 * {
@@ -67,10 +97,13 @@
           box-sizing: border-box;
 }
 
-.container__staff {
-  padding: 10px;
-  background-color: #00000086;
-  text-align: center;
+.staff__titulo__seccion .__titulo__seccion {
+  margin: 35px;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 
 .proyectos__titulos {
@@ -97,17 +130,20 @@
 }
 
 .container__contacto__pg {
-  padding: 10px;
-  background-color: #00000086;
-  text-align: center;
+  background-image: url(../imagenes/fondo-contaacto.jpg);
+  background-size: 100%;
 }
 
-.container__contacto__pg .contacto__titulos {
-  padding: 10px;
+.container__contacto__pg h1 {
+  padding: 15px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 
 .margin__container {
-  margin: 10rem;
+  margin: 3rem;
 }
 
 .container__form__pg {
@@ -149,13 +185,13 @@
           box-sizing: border-box;
 }
 
-.equipos__seccion {
-  background-color: #00000086;
-  text-align: center;
-}
-
 .equipos__seccion .__titulo__seccion {
-  padding: 10px;
+  margin: 35px;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 
 .container-fluid {
@@ -166,18 +202,39 @@ img {
   width: 100%;
 }
 
+@media only screen and (max-width: 560px) {
+  .equipos__seccion .__titulo__seccion {
+    font-size: xx-large;
+    margin: 5px;
+    padding: 15px;
+  }
+}
+
 .container__nosespecializamos {
-  padding: 10px;
-  background-color: #00000086;
+  background-color: #fff;
+  padding-bottom: 2rem;
 }
 
 .container__nosespecializamos h2 {
-  text-align: center;
-  color: white;
+  margin: 35px;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 
 .contenedor__accordion {
+  background-color: rgba(0, 0, 0, 0.445);
   padding: 30px;
+}
+
+@media only screen and (max-width: 560px) {
+  .container__nosespecializamos .__titulo__seccion {
+    font-size: x-large;
+    margin: 5px;
+    padding: 15px;
+  }
 }
 
 * {

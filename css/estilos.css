@@ -69,37 +69,49 @@
   padding: 0;
   box-sizing: border-box; }
 
-.container__staff {
-  padding: 10px;
-  background-color: #00000086;
-  text-align: center; }
+.staff__titulo__seccion .__titulo__seccion {
+  margin: 35px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left; }
+
+.texto__staff p {
+  color: white;
+  margin: 35px;
+  padding: 5px;
+  font-size: 25px; }
 
 .proyectos__titulos {
   padding: 5px; }
 
 .card {
+  padding: 0;
+  margin: 0;
   opacity: 0.8;
-  background-color: #db973da6; }
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   .card:hover {
-    opacity: 1; }
+    opacity: 1;
+    transform: scale(1.1, 1.1);
+    transition: all 1s; }
 
 .card-body {
   text-align: center;
-  color: black; }
-
-.btn {
-  border: 1px solid black;
-  color: black; }
+  color: black;
+  background-color: #ecb16381; }
 
 .container__contacto__pg {
-  padding: 10px;
-  background-color: #00000086;
-  text-align: center; }
-  .container__contacto__pg .contacto__titulos {
-    padding: 10px; }
+  background-image: url(../imagenes/fondo-contaacto.jpg);
+  background-size: 100%; }
+  .container__contacto__pg h1 {
+    padding: 15px;
+    color: #d17070;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left; }
 
 .margin__container {
-  margin: 10rem; }
+  margin: 3rem; }
 
 .container__form__pg {
   padding: 30px;
@@ -133,15 +145,13 @@
   margin: 0;
   box-sizing: border-box; }
 
-.equipos__seccion {
-  text-align: center; }
-  .equipos__seccion .__titulo__seccion {
-    margin: 35px;
-    padding: 15px;
-    color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left; }
+.equipos__seccion .__titulo__seccion {
+  margin: 35px;
+  padding: 15px;
+  color: #d17070;
+  font-size: 3rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left; }
 
 .container-fluid {
   margin: 5px; }

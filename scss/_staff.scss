@@ -4,21 +4,42 @@
     box-sizing: border-box;
 }
 
-.container__staff{
-    padding: 10px;
-    background-color: #00000086;
-    text-align: center;
+.staff__titulo__seccion{
+    
+    .__titulo__seccion {
+        
+        margin: 35px;
+        color:$titulos;
+        font-size: $size-titulos;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: left; 
+    }
+}
+
+.texto__staff{
+    p{
+        color: white;
+        margin: 35px;
+        padding: 5px; 
+        font-size: 25px;
+        // font-style: oblique;
+    }
 }
 .proyectos__titulos{
     padding: 5px;
 }
 .card{
+    padding: 0;
+    margin: 0;
     opacity: 0.8;
-    background-color: #db973da6;
-    
+    // background-color: #ecb16381;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
+    
     &:hover{
         opacity: 1;
+        transform: scale(1.1,1.1);
+        transition: all 1s;
    
     }
 }
@@ -26,8 +47,6 @@
 .card-body{
     text-align: center;
     color: black;
+    background-color: #ecb16381;
 }
-.btn{
-    border: 1px solid black;
-    color: black;
-}
+
