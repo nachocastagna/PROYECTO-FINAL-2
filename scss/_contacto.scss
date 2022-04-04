@@ -1,7 +1,11 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .container__contacto__pg{
-    background-image: url(../imagenes/fondo-contaacto.jpg);
+    background-image: url(../imagenes/fondo-equipo.png);
     background-size: 100%;
     
     h1{
@@ -14,10 +18,10 @@
     }
 }
 
-.margin__container{
-    margin: 3rem;
-}
 
+.margin__container{
+    padding: 15px;
+}
 
 .container__form__pg{
     
@@ -51,4 +55,25 @@
     
     .container__form .boton{
         width: 60px;
+    }
+
+    @media only screen and (max-width: 560px){
+        .container__form__pg{
+            width: 85%;
+            margin: auto;
+
+        input{
+            font-size: small;
+        }
+        }    
+        .margin__container{
+            padding: 15px;
+        }
+
+        .container__contacto__pg h1{
+            font-size: large;
+            
+            padding: 5px;
+        }
+
     }

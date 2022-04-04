@@ -18,9 +18,9 @@
   .container__proyectos {
     height: auto; }
   .container__proyectos h1 {
-    font-size: xx-large;
+    font-size: large;
     margin: 5px;
-    padding: 15px; }
+    padding: 5px; }
   .container__card p {
     font-size: 15px; }
   .container__card .card {
@@ -58,9 +58,9 @@
 
 @media only screen and (max-width: 560px) {
   .container__connosotros h1 {
-    font-size: xx-large;
+    font-size: large;
     margin: 5px;
-    padding: 15px; }
+    padding: 5px; }
   .container__connosotros .carousel-item img {
     width: 250px; } }
 
@@ -86,6 +86,7 @@
   padding: 5px; }
 
 .card {
+  width: 13rem;
   padding: 0;
   margin: 0;
   opacity: 0.8;
@@ -100,8 +101,28 @@
   color: black;
   background-color: #ecb16381; }
 
+@media only screen and (max-width: 560px) {
+  .staff__titulo__seccion {
+    height: auto; }
+  .texto__staff p {
+    font-size: large;
+    margin: 10px;
+    padding: 5px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: oblique; }
+  .card {
+    width: 10rem;
+    margin: 10px; } }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
 .container__contacto__pg {
-  background-image: url(../imagenes/fondo-contaacto.jpg);
+  background-image: url(../imagenes/fondo-equipo.png);
   background-size: 100%; }
   .container__contacto__pg h1 {
     padding: 15px;
@@ -111,7 +132,7 @@
     text-align: left; }
 
 .margin__container {
-  margin: 3rem; }
+  padding: 15px; }
 
 .container__form__pg {
   padding: 30px;
@@ -139,6 +160,18 @@
 
 .container__form .boton {
   width: 60px; }
+
+@media only screen and (max-width: 560px) {
+  .container__form__pg {
+    width: 85%;
+    margin: auto; }
+    .container__form__pg input {
+      font-size: small; }
+  .margin__container {
+    padding: 15px; }
+  .container__contacto__pg h1 {
+    font-size: large;
+    padding: 5px; } }
 
 * {
   padding: 0;

@@ -25,9 +25,9 @@
         height: auto;
     }
     .container__proyectos h1{
-        font-size:xx-large;
+        font-size: large;
         margin: 5px;
-        padding: 15px;
+        padding: 5px;
     }
     .container__card p{
         font-size: 15px;
@@ -80,11 +80,11 @@
 
 @media only screen and (max-width: 560px){
     .container__connosotros{
+        
         h1{
-            font-size:xx-large;
+            font-size: large;
             margin: 5px;
-            padding: 15px;
-
+            padding: 5px;
         }
         .carousel-item img{
             width: 250px;
