@@ -246,6 +246,7 @@ body{
 
     @media only screen and (max-width: 560px) {
         .container__contacto{
+            display: none;
             height: auto;
         }
         .container__contacto h1{
