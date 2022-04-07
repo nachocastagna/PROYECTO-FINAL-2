@@ -173,12 +173,8 @@
           box-sizing: border-box;
 }
 
-.container__contacto__pg {
-  background-image: url(../imagenes/fondo-equipo.png);
-  background-size: 100%;
-}
-
 .container__contacto__pg h1 {
+  margin: 35px;
   padding: 15px;
   color: #d17070;
   font-size: calc(1.375rem + 1.5vw);
@@ -186,25 +182,21 @@
   text-align: left;
 }
 
-.margin__container {
-  padding: 15px;
-}
-
 .container__form__pg {
   padding: 30px;
   margin: auto;
   width: 400px;
-  background-color: #fcc987fd;
+  background-color: #fff;
   border: 1px;
   border-radius: 5px;
-  border-style: solid;
-  border-color: #C98022;
   color: white;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .container__form__pg h1 {
   text-align: center;
-  color: white;
+  color: #d17070;
   font-size: 1.5rem;
 }
 
@@ -215,11 +207,7 @@
   border-radius: 5px;
   margin-bottom: 16px;
   border: solid 1px black;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.container__form .boton {
-  width: 60px;
+  font-family: "Ubuntu", sans-serif;
 }
 
 @media only screen and (max-width: 560px) {
@@ -285,9 +273,9 @@ img {
   text-align: left;
 }
 
-.contenedor__accordion {
-  background-color: rgba(0, 0, 0, 0.445);
-  padding: 5px;
+.accordion-button {
+  font-size: large;
+  font: bold;
 }
 
 @media only screen and (max-width: 560px) {
