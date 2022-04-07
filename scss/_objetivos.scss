@@ -46,12 +46,10 @@
 
 .contenedor__accordion{
     background-color: rgba(0, 0, 0, 0.445) ;
-    padding: 30px;
+    padding: 5px;
 }
 
-.accordion-item{
-    border: none;
-}
+
 @media only screen and (max-width: 560px){
     .container__nosespecializamos .__titulo__seccion{
         font-size: x-large;
