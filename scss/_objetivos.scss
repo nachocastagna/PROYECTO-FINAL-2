@@ -11,7 +11,7 @@
         padding: 15px;
         color:$titulos;
         font-size: $size-titulos;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family:$font;
         text-align: left; 
     }
 }
@@ -38,7 +38,7 @@
     padding: 15px;
     color:$titulos;
     font-size: $size-titulos;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:$font;
     text-align: left; 
     
     }
@@ -48,6 +48,8 @@
     background-color: rgba(0, 0, 0, 0.445) ;
     padding: 5px;
 }
+
+
 
 
 @media only screen and (max-width: 560px){

@@ -5,17 +5,21 @@
     box-sizing: border-box;
 }
 
+
+
 .container__proyectos{
-    padding: 10px;
-    background-color: #fcc987fd ;
+    width: 100%;
+    height: 50rem;
+    // background-color: #fcc987fd ;
     
     h1{
         margin: 35px;
         padding: 15px;
         color:$titulos;
         font-size: $size-titulos;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         text-align: left; 
+        
 
     }
 }
@@ -39,14 +43,15 @@
 }
 
 .container__card{
-    
+    padding-top: 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
     
     .card{
-
+        margin: auto;
+        margin-bottom: 1rem;
         font-size: 15px;
         text-align: center;
         border-radius: none;
@@ -59,8 +64,10 @@
 
 
 .container__connosotros{
-    padding: 10px;
-    background-color: #fff;
+    
+    width: 100%;
+    height: 50rem;
+    background-color: rgb(241, 255, 255);
     text-align: center;
     align-items: center;
 
@@ -69,12 +76,16 @@
         padding: 15px;
         color:$titulos;
         font-size: $size-titulos;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: $font;
         text-align: left;     
     }
 
 }
-.carousel-inner img{
+.carousel__proyectios{
+    padding: 5%;
+}
+.carousel-inner{
+    width: 70%;
     margin: auto;
 }
 
@@ -87,7 +98,8 @@
             padding: 5px;
         }
         .carousel-item img{
-            width: 250px;
+            width: 70%;
+            margin: auto;
         }
     }
 }

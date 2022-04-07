@@ -4,14 +4,14 @@
   box-sizing: border-box; }
 
 .container__proyectos {
-  padding: 10px;
-  background-color: #fcc987fd; }
+  width: 100%;
+  height: 50rem; }
   .container__proyectos h1 {
     margin: 35px;
     padding: 15px;
     color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: 'Ubuntu', sans-serif;
     text-align: left; }
 
 @media only screen and (max-width: 560px) {
@@ -27,10 +27,13 @@
     margin: 5px; } }
 
 .container__card {
+  padding-top: 5%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around; }
   .container__card .card {
+    margin: auto;
+    margin-bottom: 1rem;
     font-size: 15px;
     text-align: center;
     border-radius: none;
@@ -39,19 +42,24 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
 
 .container__connosotros {
-  padding: 10px;
-  background-color: #fff;
+  width: 100%;
+  height: 50rem;
+  background-color: #f1ffff;
   text-align: center;
   align-items: center; }
   .container__connosotros h1 {
     margin: 35px;
     padding: 15px;
     color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: "Ubuntu", sans-serif;
     text-align: left; }
 
-.carousel-inner img {
+.carousel__proyectios {
+  padding: 5%; }
+
+.carousel-inner {
+  width: 70%;
   margin: auto; }
 
 @media only screen and (max-width: 560px) {
@@ -60,7 +68,8 @@
     margin: 5px;
     padding: 5px; }
   .container__connosotros .carousel-item img {
-    width: 250px; } }
+    width: 70%;
+    margin: auto; } }
 
 * {
   margin: 0;
@@ -70,8 +79,8 @@
 .staff__titulo__seccion .__titulo__seccion {
   margin: 35px;
   color: #d17070;
-  font-size: 3rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: calc(1.375rem + 1.5vw);
+  font-family: "Ubuntu", sans-serif;
   text-align: left; }
 
 .texto__staff p {
@@ -125,8 +134,8 @@
   .container__contacto__pg h1 {
     padding: 15px;
     color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: "Ubuntu", sans-serif;
     text-align: left; }
 
 .margin__container {
@@ -180,8 +189,8 @@
   margin: 35px;
   padding: 15px;
   color: #d17070;
-  font-size: 3rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: calc(1.375rem + 1.5vw);
+  font-family: "Ubuntu", sans-serif;
   text-align: left; }
 
 .container-fluid {
@@ -203,8 +212,8 @@ img {
     margin: 35px;
     padding: 15px;
     color: #d17070;
-    font-size: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: "Ubuntu", sans-serif;
     text-align: left; }
 
 .contenedor__accordion {
@@ -236,8 +245,8 @@ body {
   margin: 35px;
   padding: 15px;
   color: #d17070;
-  font-size: 3rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: calc(1.375rem + 1.5vw);
+  font-family: "Ubuntu", sans-serif;
   text-align: left; }
 
 .container__parrafo {

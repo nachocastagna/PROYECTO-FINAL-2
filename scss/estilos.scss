@@ -1,6 +1,7 @@
 // VARIABLES
 $titulos:#d17070;
-$size-titulos: 3rem;
+$size-titulos: calc(1.375rem + 1.5vw);
+$font:'Ubuntu', sans-serif;
 @import "mixin";
 @import "proyectos";
 @import "staff";
@@ -28,7 +29,7 @@ body{
     padding: 15px;
     color:$titulos;
     font-size: $size-titulos;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: $font;
     text-align: left; 
 }
 .container__parrafo{
