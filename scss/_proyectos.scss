@@ -25,27 +25,27 @@
 }
 
 .container__videos{
-    width: auto;
-    height: auto;
+
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 5px;
-    margin-right: 5px;
-  
+    flex-wrap: wrap;
+    gap: 15px;
 
     iframe{
         &:hover{
+            
             transform: scale(1.1,1.1);
-            transition: all 0.5s;
+            transition: all 1s;
+            border-radius: 5%;
         }
-        margin: 0.5rem;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        border-radius: 5px;
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    }
+        border-radius: 100%;
+        }
+
+       
 }
+
+
 
 @media only screen and (max-width: 560px) {
     .container__proyectos{
@@ -67,11 +67,12 @@
 
 .container__connosotros{
     
-    width: 100%;
-    
+    margin: auto;
+    padding: auto;
     background-color:#fff;
     text-align: center;
     align-items: center;
+
 
     h1{
         margin: 35px;
@@ -82,10 +83,17 @@
         text-align: left;     
     }
 
-}
-.container__proyectos{
-    
-    width: auto;
+    // .card__proyectos{
+
+
+    //     .carousel-item img{
+    //         width: 50%;
+    //         margin: auto;
+
+    //     }
+
+    // }
+
 
 }
 
