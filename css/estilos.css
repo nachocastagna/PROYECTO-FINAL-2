@@ -19,6 +19,7 @@
   flex-wrap: wrap;
   gap: 15px; }
   .container__videos iframe {
+    margin: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     border-radius: 100%; }
     .container__videos iframe:hover {
@@ -30,9 +31,9 @@
   .container__proyectos {
     height: auto; }
   .container__proyectos h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px; }
+    padding: 15px; }
   .container__card p {
     font-size: 15px; }
   .container__card .card {
@@ -54,9 +55,9 @@
 
 @media only screen and (max-width: 560px) {
   .container__connosotros h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px; }
+    padding: 15px; }
   .container__connosotros .carousel-item img {
     width: 70%;
     margin: auto; } }
@@ -99,7 +100,7 @@
   background-color: #ecb16381; }
 
 @media only screen and (max-width: 560px) {
-  .staff__titulo__seccion {
+  .staff__titulo__seccion h1 {
     font-size: xx-large;
     margin: 5px;
     padding: 15px; }
@@ -111,6 +112,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-style: oblique; }
+  .card-title {
+    font-size: small; }
+  .card-text {
+    font-size: x-small; }
   .card {
     width: 10rem;
     margin: 10px; } }
