@@ -258,9 +258,9 @@ body {
   .container__quienesomos {
     height: auto; }
   .container__quienesomos h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px; }
+    padding: 15px; }
   .container__parrafo {
     height: auto;
     width: 100%; }
@@ -298,9 +298,9 @@ body {
   .container__quehacemos {
     height: auto; }
   .container__quehacemos h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px; } }
+    padding: 15px; } }
 
 .contenedor__adondeapuntamos {
   margin: 0;
@@ -322,9 +322,9 @@ body {
   .contenedor__adondeapuntamos {
     height: auto; }
   .contenedor__adondeapuntamos h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px; } }
+    padding: 15px; } }
 
 .container__contacto {
   margin: 0;

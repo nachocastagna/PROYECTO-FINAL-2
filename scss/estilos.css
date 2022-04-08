@@ -343,9 +343,9 @@ body {
     height: auto;
   }
   .container__quienesomos h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
   }
   .container__parrafo {
     height: auto;
@@ -408,9 +408,9 @@ body {
     height: auto;
   }
   .container__quehacemos h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
   }
 }
 
@@ -443,9 +443,9 @@ body {
     height: auto;
   }
   .contenedor__adondeapuntamos h1 {
-    font-size: large;
+    font-size: xx-large;
     margin: 5px;
-    padding: 5px;
+    padding: 15px;
   }
 }
 
